@@ -167,13 +167,13 @@ img {
   cursor: pointer;
 }
 .divider .divider-one {
-  background: #c14000;
+  background: #009988;
 }
 .divider .divider-two {
   background: #009988;
 }
 .divider .divider-three {
-  background: #ffa500;
+  background: #009988;
 }
 
 /* about section */
@@ -320,6 +320,45 @@ img {
     width: 100%;
     height: 300px;
   }
+
+  /* detail section */
+#detail {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#detail h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#detail h3 {
+  padding-bottom: 10px;
+}
+#detail .team-wrapper {
+  border: 2px solid #303030;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+#detail h4 {
+  color: #4AD56A;
+}
+#detail img {
+  opacity: 0.8;
+}
+#detail hr {
+  border-color: #303030;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#detail strong {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+#detail .progress {
+  border-radius: 0px;
+  height: 4px;
+}
 
 /* footer section */
 footer {
